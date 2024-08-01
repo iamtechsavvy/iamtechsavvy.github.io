@@ -1,6 +1,7 @@
 {
   "name": "my-personal-page",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,6 +15,9 @@
     "react-dom": "latest"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "@types/node": "^22.0.2",
+    "@types/react": "^18.3.3",
+    "gh-pages": "^3.2.3",
+    "typescript": "^5.5.4"
   }
 }
