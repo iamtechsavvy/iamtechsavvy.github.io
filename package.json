@@ -1,0 +1,19 @@
+{
+  "name": "my-personal-page",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
